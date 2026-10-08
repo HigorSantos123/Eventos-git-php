@@ -19,7 +19,7 @@ if(isset($_SESSION['erro'])){
         <p style="color: red;"><?= htmlspecialchars($erro) ?></p>
         <?php endif; ?>
 
-        <form action="processaCadastro.php" method="POST">
+        <form action="cadastroform.php" method="POST">
             <div>
                 <label style="color: red;" for="titulo">Titulo: </label>
                 <input type="text" name="titulo" id="titulo"
