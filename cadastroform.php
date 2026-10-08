@@ -1,6 +1,5 @@
 <?php
-require_once 'init.php';
-
+require_once __DIR__ . "/init.php";
 
 $erro = null;
 if(isset($_SESSION['erro'])){
@@ -71,5 +70,3 @@ if(isset($_SESSION['erro'])){
         </form>
     </body>
 </html>
-
-
